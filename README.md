@@ -1,1 +1,2 @@
-# satyavivek30-Data_visualizer_by_streamlit
+# data-vizualizer-streamlit-web-app
+This repository contains the code required to build a Data Analyser web app using Streamlit
