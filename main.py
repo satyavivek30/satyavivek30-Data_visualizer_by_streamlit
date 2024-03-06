@@ -19,7 +19,7 @@ st.set_page_config(
 st.title('📊 Data Visualizer')
 working_directory = os.path.dirname(os.path.abspath(__file__))
 
-folder_path = f"{working_directory}/data"
+folder_path = f"{working_directory}"
 
 files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
 selected_file = st.selectbox("Select the file ",files, index=None)
